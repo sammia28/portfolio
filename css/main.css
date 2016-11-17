@@ -1,0 +1,16 @@
+/*	menu*/
+i.fa.fa-bars.fa-3x {
+	margin-left: 2rem;
+}
+/*section 1*/
+.titulo{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+/*sobre mi*/
+.sobre-mi{
+	height: 100vh;
+}
+.profile{
+	font-family: 'Catamaran', sans-serif;
+}
