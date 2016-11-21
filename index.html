@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Catamaran|Julius+Sans+One|Proza+Libre" rel="stylesheet">
+		<link rel="stylesheet" href="css/responsive.css">
 	</head>
 	<body>
 		<nav>
@@ -18,71 +19,258 @@
 					</i>
 				</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="sass.html">Sobre mì</a></li>
-					<li><a href="badges.html">Habilidades</a></li>
-					<li><a href="collapsible.html">Proyectos</a></li>
-					<li><a href="mobile.html">Contàctame</a></li>
+					<li><a href="#sobre-mi">Sobre mì</a></li>
+					<li><a href="#habilidades">Habilidades</a></li>
+					<li><a href="#proyectos">Proyectos</a></li>
+					<li><a href="#contactame">Contàctame</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<li><a href="sass.html">Sobre mì</a></li>
-					<li><a href="badges.html">Habilidades</a></li>
-					<li><a href="collapsible.html">Proyectos</a></li>
-					<li><a href="mobile.html">Contàctame</a></li>
+					<li><a href="#sobre-mi">Sobre mì</a></li>
+					<li><a href="#habilidades">Habilidades</a></li>
+					<li><a href="#proyectos">Proyectos</a></li>
+					<li><a href="#contactame">Contàctame</a></li>
 				</ul>
 			</div>
 		</nav>
-		<div class="carousel carousel-slider center" data-indicators="true">
-			<div class="carousel-item red white-text" href="#one!">
-				<h2>First Panel</h2>
-				<p class="white-text">This is your first panel</p>
-			</div>
-			<div class="carousel-item amber white-text" href="#two!">
-				<h2>Second Panel</h2>
-				<p class="white-text">This is your second panel</p>
-			</div>
-			<div class="carousel-item green white-text" href="#three!">
-				<h2>Third Panel</h2>
-				<p class="white-text">This is your third panel</p>
-			</div>
+		<div class="slider">
+		    <ul class="slides">
+		      	<li>
+		        	<img src="http://lorempixel.com/580/250/nature/1">
+		        	<div class="caption center-align">
+		          		<h3>This is our big Tagline!</h3>
+		          		<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+		        	</div>
+		      	</li>
+		      	<li>
+			        <img src="http://lorempixel.com/580/250/nature/2">
+			        <div class="caption left-align">
+			            <h3>Tercer puesto en hackatón #NiUnaMenos <br> YoMeQuiero.la</h3>
+			          	<h5 class="light grey-text text-lighten-3">Plataforma de información, concientización de la violencia contra la mujer y desarrollo personal</h5>
+			          	<a href="http://yomequiero.la/" target="_blank">
+			          		<i class="fa fa-google fa-3x" aria-hidden="true"></i>
+			          	</a>
+			          	<a href="https://www.facebook.com/yomequiero.la" target="_blank">
+			          		<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+			          	</a>
+			        </div>
+		      	</li>
+		     	<li>
+			        <img src="http://lorempixel.com/580/250/nature/3">
+			        <div class="caption right-align">
+			          	<h3>CodeSpace.la</h3>
+			          	<h5 class="light grey-text text-lighten-3">Somos un equipo front end developers, cuyo objetivo es la difusión de los conocimientos aprendidos en el ámbito informático y tecnológico.</h5>
+			          	<a href="https://www.facebook.com/CodeSpaceLab/" target="_blank">
+			          		<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+			          	</a>
+			        </div>
+			    </li>
+		    </ul>
 		</div>
-		<section class="sobre-mi">
-		<br><br>
-			<div class="center-align">
+		<section class="sobre-mi" id="sobre-mi">
+			<div class="center-align"> <br>
 				<h2 class="titulo">Sammia Zubizarreta</h2>
 				<h5 class="titulo">Front end developer jr</h5>
 			</div>
-			<div class=""> 
+			<div class="container"> 
 			<br><br><br><br>
-				<h4 class="center-align profile">
-					Hola,  soy Sammia, tengo 18 años y soy front end developer jr. <br>Soy una persona 
-				</h4>
+				<h5 class="center-align profile">
+					Hola,  soy Sammia, tengo 18 años y soy front end developer jr. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem voluptatibus quos voluptates iure omnis doloremque inventore fugiat, illum ea nobis doloribus perspiciatis nisi, laudantium tempore modi earum sunt, qui deserunt!
+				</h5>
 				<br>
-				<a href="https://twitter.com/Zubizarreta28" target="_blank">
-					<i class="fa fa-twitter-square fa-2x icon-contacto" aria-hidden="true"></i>
-				</a>
-				<a href="https://www.instagram.com/sammia_zubizarreta/" target="_blank">
-					<i class="fa fa-instagram fa-2x icon-contacto" aria-hidden="true"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/sammia-karen-zubizarreta-arimuya-94a71512a?trk=nav_responsive_tab_profile_pic" target="_blank">
-					<i class="fa fa-linkedin-square fa-2x icon-contacto" aria-hidden="true"></i>
-				</a>
-				<a href="https://github.com/sammia28" target="_blank">
-					<i class="fa fa-github fa-2x icon-contacto" aria-hidden="true"></i>
-				</a>
+				<div class="icon-redes">
+					<a href="https://twitter.com/Zubizarreta28" target="_blank">
+						<i class="fa fa-twitter-square fa-2x icon-contacto col offset-s5" aria-hidden="true"></i>
+					</a>
+					<a href="https://www.instagram.com/sammia_zubizarreta/" target="_blank">
+						<i class="fa fa-instagram fa-2x icon-contacto" aria-hidden="true"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/sammia-karen-zubizarreta-arimuya-94a71512a?trk=nav_responsive_tab_profile_pic" target="_blank">
+						<i class="fa fa-linkedin-square fa-2x icon-contacto" aria-hidden="true"></i>
+					</a>
+					<a href="https://github.com/sammia28" target="_blank">
+						<i class="fa fa-github fa-2x icon-contacto" aria-hidden="true"></i>
+					</a>
+				</div>
 			</div>
 		</section>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		<section class="h-sec" id="habilidades">
+			<div class="container">
+				<h3 class="col s12 center-align">Mis habilidades</h3>
+				<h5 class="col s6 center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum soluta consequuntur odio aperiam nostrum iste aliquid itaque beatae illum accusantiu</h5>
+			</div>
+			<div class="row col">
+				<div class="col s12 m4 l3 center-align html">HTML5 
+					<span>90%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align css">CSS3 
+					<span>80%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align bots">Booststrap 
+					<span>70%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align mtlz">Materialize 
+					<span>80%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align git">Git Hub 
+					<span>70%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align js">JavaScript 
+					<span>70%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align jquery">Jquery
+					<span>70%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align sass">SASS 
+					<span>70%</span>
+				</div>
+				<div class="col s12 m4 l3 center-align sass">SASS 
+					<span>70%</span>
+				</div>
+			</div>
+		</section>
+		<section class="h-sec" id="proyectos"><br><br>
+			<div class="container">
+				<h3 class="col s12 center-align">Mis Proyectos</h3>
+				<h5 class="col s6 center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum soluta consequuntur odio aperiam nostrum iste aliquid itaque beatae illum accusantiu</h5>
+			</div>	
+			<div class="row">
+				<div class="card col s12 m3 l5">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="images/office.jpg">
+				    </div>
+				    <div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-4">Card Title
+				      		<i class="fa fa-info-circle right" aria-hidden="true"></i>
+						</span>
+				      	<p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Card Title
+				      		<i class="fa fa-times-circle-o right" aria-hidden="true"></i>
+				      	</span>
+				      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				</div>
+				<div class="card col s12 m3 l5">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="images/office.jpg">
+				    </div>
+				    <div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-4">Card Title
+				      		<i class="fa fa-info-circle right" aria-hidden="true"></i>
+						</span>
+				      	<p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Card Title
+				      		<i class="fa fa-times-circle-o right" aria-hidden="true"></i>
+				      	</span>
+				      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				</div>
+			</div>
+						<div class="row">
+				<div class="card col s12 m3 l5">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="images/office.jpg">
+				    </div>
+				    <div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-4">Card Title
+				      		<i class="fa fa-info-circle right" aria-hidden="true"></i>
+						</span>
+				      	<p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Card Title
+				      		<i class="fa fa-times-circle-o right" aria-hidden="true"></i>
+				      	</span>
+				      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				</div>
+				<div class="card col s12 m3 l5">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="images/office.jpg">
+				    </div>
+				    <div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-4">Card Title
+				      		<i class="fa fa-info-circle right" aria-hidden="true"></i>
+						</span>
+				      	<p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Card Title
+				      		<i class="fa fa-times-circle-o right" aria-hidden="true"></i>
+				      	</span>
+				      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				</div>
+			</div>			<div class="row">
+				<div class="card col s12 m3 l5">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="images/office.jpg">
+				    </div>
+				    <div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-4">Card Title
+				      		<i class="fa fa-info-circle right" aria-hidden="true"></i>
+						</span>
+				      	<p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Card Title
+				      		<i class="fa fa-times-circle-o right" aria-hidden="true"></i>
+				      	</span>
+				      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				</div>
+				<div class="card col s12 m3 l5">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="images/office.jpg">
+				    </div>
+				    <div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-4">Card Title
+				      		<i class="fa fa-info-circle right" aria-hidden="true"></i>
+						</span>
+				      	<p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Card Title
+				      		<i class="fa fa-times-circle-o right" aria-hidden="true"></i>
+				      	</span>
+				      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				</div>
+			</div>	
+		</section>
+		<section id="contactame" class="h-sec">
+			<div class="container">
+				<div class="row center-align">
+					<h3>Contacto</h3>
+					<a href="#">
+						<button type="button">
+							<i class="fa fa-download fa-2x" aria-hidden="true"></i> <br>Descargar CV
+						</button>
+					</a>
+				</div>
+				<h5 class="center-align">Si estás  interesado en desarrollar un sitio web o necesitas una frontend developer, dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</h5>
+				<div class="row">
+					<div class="center-align col s12">
+						<i class="fa fa-envelope fa-2x icon-contacto" aria-hidden="true"></i>
+						<p>sammia.zubizarreta@gmail.com</p>
+						<i class="fa fa-phone fa-2x icon-contacto" aria-hidden="true"></i>
+						<p>+51 967 128 426</p>
+						<i class="fa fa-github fa-2x icon-contacto" aria-hidden="true"></i>
+						<p>Usuario: sammia28</p>
+					</div>
+				</div>			
+			</div>
+		</section>
+		<footer>
+			<div class="center-align">
+	            <div class="container">
+					<p>Todos los derechos reservados 2016 | Sammia Zubizarreta</p>
+	            </div>
+	        </div>
+		</footer>
 		<script src="js/jquery.js"></script>
 		<script src="js/materialize.min.js"></script>
 		<script src="js/main.js"></script>
