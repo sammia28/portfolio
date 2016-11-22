@@ -2,9 +2,35 @@
 i.fa.fa-bars.fa-3x {
 	margin-left: 2rem;
 }
+nav {
+	background: #0A426B;
+}
 /*section 1*/
+body{
+	font-family: Catamaran;
+}
 .titulo{
 	font-family: 'Julius Sans One', sans-serif;
+}
+
+/*slider*/
+
+h3 {
+	font-size: 2.92rem;
+	line-height: 110%;
+	margin: 1.46rem 0 1.168rem 0;
+	color: #162521;
+	font-weight: 900;
+	background: beige;
+	opacity: 0.8;
+}
+.grey-text.text-lighten-3 {
+	color: #3C474B !important;
+	background: cornsilk;
+	opacity: 0.8;
+}
+.icon-contac{
+	color:#C0E0DE;
 }
 
 /*sobre mi*/
@@ -17,6 +43,8 @@ i.fa.fa-bars.fa-3x {
 .icon-redes {
     margin-left: 55rem;
 }
+
+
 
 
 /* habilidades */
@@ -47,7 +75,7 @@ i.fa.fa-bars.fa-3x {
     left: 0px;
     position: absolute;
     top: 0px;
-    transition: all 5s ease;
+    transition: all 3s ease;
     width: 0;
 }
 .html:hover:before{
@@ -75,17 +103,11 @@ i.fa.fa-bars.fa-3x {
 	width: 70%;
 }
 
-
-
-
 /* proyectos */
 .card.col.l5 {
     height: 60vh;
     margin: 3rem 3rem 1rem 4rem;
 }
-
-
-
 
 
 
