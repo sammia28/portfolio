@@ -61,60 +61,14 @@ h3 {
 
 
 /* habilidades */
-.habilidades-logo {
-    height: 15vh;
+
+.logo-habilidades {
+    margin: 4rem;
+}
+.h-logo {
+    width: 10rem;
     margin: 2rem;
-    cursor: pointer;
 }
-.html, .css, .bots, .mtlz, .git, .js, .jquery, .sass{
-    border: none;
-    background: #3a7999;
-    box-sizing: border-box;
-    border-radius: 5px;
-    color: #f2f2f2;
-    font-size: 18px;
-    margin: 1rem;
-    position: relative;
-    padding: 10px;
-    transition: all 500ms ease;
-}
-
-.html:before, .css:before, .bots:before, .mtlz:before, .git:before, .js:before, .jquery:before, .sass:before {
-	background: rgba(255,255,255,0.3);
-    border-radius: 5px;
-    content: '';
-    height: 15vh;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    transition: all 3s ease;
-    width: 0;
-}
-.html:hover:before{
-	width: 90%;
-} 
-.css:hover:before{
-	width: 80%;
-} 
-.bots:hover:before{
-	width: 70%;
-} 
-.mtlz:hover:before{
-	width: 80%;
-} 
-.git:hover:before{
-	width: 70%;
-} 
-.js:hover:before{
-	width: 70%;
-} 
-.jquery:hover:before{
-	width: 70%;
-} 
-.sass:hover:before{
-	width: 70%;
-}
-
 /* proyectos */
 .card.col.l5 {
     height: 60vh;
@@ -127,10 +81,25 @@ h3 {
 .contac-icon {
 	cursor: pointer;
 }
+.contacto-logo{
+    margin: 4rem 0 4rem 13rem;
+}
+.btn-contacto{
+    padding: 1px 2rem;
+    color: white;
+    background: #6BC8CB;
+    border: none;
+}
 
 /* footer */
 section#contactame {
     height: 90vh;
+}
+footer{
+	background: #4B8085;
+    color: white;
+    padding: 1px;
+}
 }
      
 
