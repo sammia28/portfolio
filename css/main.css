@@ -34,11 +34,59 @@ h3 {
 }
 
 /*sobre mi*/
+
+.ball {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #4B8085;
+  margin-left: -5px;
+  transition-property: left, top;
+  transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
+}
+
+.titulo-n {
+	position: relative;
+  	margin: 0;
+  	display: inline-block;
+  	text-align: center;
+  	font-size: 4rem;
+	font-family: 'Julius Sans One', sans-serif;
+  	outline: none;
+}
+
+.word.lit {
+  	color: #4B8085;
+}
+
+.contenedor-titulo {
+  	width: 1280px;
+  	margin: 0 auto;
+  	text-align: center;
+}
+
+.light-switch {
+  	position: absolute;
+  	top: 10px;
+  	left: 10px;
+  	font-size: 50px;
+  	color: #4B8085;
+  	cursor: pointer;
+  
+  &:hover {
+      color: #4B8085;
+    }
+}
 .sobre-mi{
 	height: 100vh;
 }
 .profile{
 	font-family: 'Catamaran', sans-serif;
+	text-align: justify;
+    line-height: 1.5;
 }
 .icon-redes {
     margin-left: 55rem;
@@ -54,11 +102,9 @@ h3 {
 .icon-contacto {
 	color: #2A2B2A;
 }
-
-
-
-
-
+.icon-contacto:hover {
+    color: #DADADA;
+}
 
 /* habilidades */
 
@@ -68,6 +114,12 @@ h3 {
 .h-logo {
     width: 10rem;
     margin: 2rem;
+}
+.h-logo:hover {
+    background: #97D9DB;
+    border-radius: 50%;
+    padding: 1rem;
+    border: 2px solid #6BC8CB;
 }
 /* proyectos */
 .card.col.l5 {
@@ -100,15 +152,6 @@ footer{
     color: white;
     padding: 1px;
 }
-}
-     
-
-
-
-
-
-
-
 
 
 
