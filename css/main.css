@@ -2,60 +2,73 @@
 i.fa.fa-bars.fa-3x {
 	margin-left: 2rem;
 }
+
 nav {
 	background:#4B8085;
+	position: fixed !important;
+	z-index: 10;
 }
+
 /*section 1*/
 body{
 	font-family: Catamaran;
 }
+
 .titulo{
 	font-family: 'Julius Sans One', sans-serif;
 }
-
 /*slider*/
-
 h3 {
+	background: beige;
+	color: #2A2B2A;
 	font-size: 2.92rem;
+	font-weight: 900;
 	line-height: 110%;
 	margin: 1.46rem 0 1.168rem 0;
-	color: #2A2B2A;
-	font-weight: 900;
-	background: beige;
 	opacity: 0.8;
+}
+.slider .slides {
+    height: 70vh !important;
 }
 .grey-text.text-lighten-3 {
 	color: #3C474B !important;
 	background: cornsilk;
 	opacity: 0.8;
 }
+
 .icon-contac{
 	color:#2A2B2A;
 }
 
 /*sobre mi*/
-
+.sobre-mi{
+    height: 100vh;
+    padding: 4rem 0;
+}
+.top-section{
+	margin-top: 4rem;
+}
 .ball {
-  position: absolute;
-  top: 0;
-  left: -20px;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background: #4B8085;
-  margin-left: -5px;
-  transition-property: left, top;
-  transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
+  	border-radius: 100%;
+  	background: #4B8085;
+  	height: 10px;
+  	left: -20px;
+  	margin-left: -5px;
+  	position: absolute;
+  	top: 0;
+  	transition-property: left, top;
+  	transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
+  	width: 10px;
 }
 
 .titulo-n {
-	position: relative;
-  	margin: 0;
   	display: inline-block;
-  	text-align: center;
   	font-size: 4rem;
 	font-family: 'Julius Sans One', sans-serif;
+  	margin: 0;
   	outline: none;
+	position: relative;
+  	text-align: center;
 }
 
 .word.lit {
@@ -63,30 +76,25 @@ h3 {
 }
 
 .contenedor-titulo {
-  	width: 1280px;
   	margin: 0 auto;
   	text-align: center;
+  	width: 100%;
 }
 
 .light-switch {
-  	position: absolute;
-  	top: 10px;
-  	left: 10px;
-  	font-size: 50px;
   	color: #4B8085;
   	cursor: pointer;
-  
-  &:hover {
-      color: #4B8085;
-    }
-}
-.sobre-mi{
-	height: 100vh;
+  	font-size: 50px;
+  	left: 10px;
+  	position: absolute;
+  	top: 10px;
 }
 .profile{
+	margin-top: 5rem;
 	font-family: 'Catamaran', sans-serif;
 	text-align: justify;
     line-height: 1.5;
+    padding-top: 3rem;
 }
 .icon-redes {
     margin-left: 55rem;
@@ -97,7 +105,6 @@ h3 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
 }
 .icon-contacto {
 	color: #2A2B2A;
@@ -116,20 +123,22 @@ h3 {
     margin: 2rem;
 }
 .h-logo:hover {
-    background: #97D9DB;
+    background: #DADADA;
     border-radius: 50%;
     padding: 1rem;
-    border: 2px solid #6BC8CB;
+    border: 2px solid #2A2B2A;
+    opacity: 0.8;
 }
 /* proyectos */
 .card.col.l5 {
     height: 60vh;
     margin: 3rem 3rem 1rem 4rem;
 }
+img.activator:hover {
+    opacity: 0.8;
+}
 
-/*
-	contactame
-*/
+/*contactame*/
 .contac-icon {
 	cursor: pointer;
 }
@@ -153,26 +162,72 @@ footer{
     padding: 1px;
 }
 
+.ac-profe-color{
+	color:#6BC8CB !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-draw {
+  position: relative;
+  display: inline-block;
+  color: #4B8085;
+  border-bottom: 2px solid #6BC8CB;
+  cursor: pointer;
+  margin: 2.3rem; 
+  overflow: hidden;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.btn-draw:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 2px;
+  background: #4B8085;
+  transform: translateY(100%);
+  transition: transform 0.2s ease-in-out;
+  transition-delay: 0.6s;
+}
+ .btn-draw .btn-cv {
+  position: relative;
+  display: block;
+  padding: 1em;
+  color: inherit;
+} 
+.btn-draw .btn-cv:before, .btn-draw .btn-cv:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #4B8085;
+  transition: transform 0.2s ease-in-out;
+}
+.btn-draw .btn-cv:before {
+  height: 2px;
+  width: 100%;
+  transform: translateX(100%);
+  transition-delay: 0.4s;
+}
+.btn-draw .btn-cv:after {
+  height: 100%;
+  width: 2px;
+  transform: translateY(-100%);
+  transition-delay: 0.2s;
+}
+.btn-draw:hover:after, .btn-draw:hover  .btn-cv:before, .btn-draw:hover  .btn-cv:after {
+  transform: translate(0, 0);
+}
+.btn-draw:hover:after {
+  transition-delay: 0s;
+}
+.btn-draw:hover .btn-cv:before {
+  transition-delay: 0.2s;
+}
+.btn-draw:hover .btn-cv:after {
+  transition-delay: 0.4s;
+}
+.btn-draw:hover {
+  color: white;
+  background-color: #4B8085;
+  transition-delay: 0.6s;
+}
