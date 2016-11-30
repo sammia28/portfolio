@@ -23,8 +23,9 @@ h3 {
 	opacity: 0.9;
 	padding: 1rem;
 }
-.sobre-mi{
+.sobre-mi {
 	height: 100vh;
+	background-color: gainsboro;
 }
 .top-section{
 	margin-top: 4rem;
@@ -69,13 +70,6 @@ h3 {
 .icon-profile:hover{
 	color:#97D9DB;
 }
-.parallax-profile {
-	background-image: url(../img/fondo-profile.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 .h-logo {
 	width: 10rem;
 	margin: 2rem;
@@ -91,8 +85,6 @@ h3 {
 }
 .card.col.l5 {
 	margin: 3.5rem;
-	border: 3px #6BC8CB;
-	border-style: groove;
 }
 img.activator:hover {
 	opacity: 0.8;
