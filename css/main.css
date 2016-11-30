@@ -1,103 +1,73 @@
-/*	menu*/
-i.fa.fa-bars.fa-3x {
-	margin-left: 2rem;
-}
-
-nav {
-	background:#4B8085;
-	position: fixed !important;
-	z-index: 10;
-}
-
-/*section 1*/
 body{
 	font-family: Catamaran;
 }
-
-.titulo{
-	font-family: 'Julius Sans One', sans-serif;
+nav {
+	background:#4B8085;
 }
-/*slider*/
+.h-sec{
+	height: 140vh;
+}
 h3 {
-	background: beige;
-	color: #2A2B2A;
-	font-size: 2.92rem;
+	background: white;
+	color: black;
 	font-weight: 900;
-	line-height: 110%;
-	margin: 1.46rem 0 1.168rem 0;
 	opacity: 0.8;
+	padding: 1rem;
 }
 .slider .slides {
-    height: 70vh !important;
+	height: 55vh !important;
 }
 .grey-text.text-lighten-3 {
-	color: #3C474B !important;
-	background: cornsilk;
-	opacity: 0.8;
+	background: #4B8085;
+	color: white !important;
+	opacity: 0.9;
+	padding: 1rem;
 }
-
-.icon-contac{
-	color:#2A2B2A;
-}
-
-/*sobre mi*/
 .sobre-mi{
-    height: 100vh;
-    padding: 4rem 0;
+	height: 100vh;
 }
 .top-section{
 	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 .ball {
-  	border-radius: 100%;
-  	background: #4B8085;
-  	height: 10px;
-  	left: -20px;
-  	margin-left: -5px;
-  	position: absolute;
-  	top: 0;
-  	transition-property: left, top;
-  	transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
-  	width: 10px;
+	border-radius: 100%;
+	background: #4B8085;
+	height: 10px;
+	left: -20px;
+	margin-left: -5px;
+	position: absolute;
+	top: 0;
+	transition-property: left, top;
+	transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
+	width: 10px;
 }
-
 .titulo-n {
-  	display: inline-block;
-  	font-size: 4rem;
+	display: inline-block;
+	font-size: 4rem;
 	font-family: 'Julius Sans One', sans-serif;
-  	margin: 0;
-  	outline: none;
+	margin: 0;
+	outline: none;
 	position: relative;
-  	text-align: center;
+	text-align: center;
 }
-
-.word.lit {
-  	color: #4B8085;
-}
-
-.contenedor-titulo {
-  	margin: 0 auto;
-  	text-align: center;
-  	width: 100%;
-}
-
-.light-switch {
-  	color: #4B8085;
-  	cursor: pointer;
-  	font-size: 50px;
-  	left: 10px;
-  	position: absolute;
-  	top: 10px;
+.titulo{
+	font-family: 'Julius Sans One', sans-serif;
 }
 .profile{
-	margin-top: 5rem;
+	margin-bottom: 8rem;
 	font-family: 'Catamaran', sans-serif;
-	text-align: justify;
-    line-height: 1.5;
-    padding-top: 3rem;
+	line-height: 1.5;
+	padding-top: 4rem;
 }
-.icon-redes {
-    margin-left: 55rem;
+.icon-contac{
+	color: white;
+}
+.icon-profile{
+	color:#2A2B2A;
+}
+.icon-profile:hover{
+	color:#97D9DB;
 }
 .parallax-profile {
 	background-image: url(../img/fondo-profile.jpg);
@@ -106,128 +76,120 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.icon-contacto {
-	color: #2A2B2A;
-}
-.icon-contacto:hover {
-    color: #DADADA;
-}
-
-/* habilidades */
-
-.logo-habilidades {
-    margin: 4rem;
-}
 .h-logo {
-    width: 10rem;
-    margin: 2rem;
+	width: 10rem;
+	margin: 2rem;
 }
 .h-logo:hover {
-    background: #DADADA;
-    border-radius: 50%;
-    padding: 1rem;
-    border: 2px solid #2A2B2A;
-    opacity: 0.8;
+	background: #DADADA;
+	border-radius: 50%;
+	padding: 1rem;
+	border: 2px solid #2A2B2A;
+	opacity: 0.8;
 }
-/* proyectos */
 .card.col.l5 {
-    height: 60vh;
-    margin: 3rem 3rem 1rem 4rem;
+	margin: 3.5rem;
 }
 img.activator:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
-
-/*contactame*/
-.contac-icon {
-	cursor: pointer;
+.contactame-parallax{
+	background-image: url(../img/fondo-contactame.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.contacto-logo{
-    margin: 4rem 0 4rem 13rem;
+section#proyectos {
+    margin-bottom: 51rem;
 }
-.btn-contacto{
-    padding: 1px 2rem;
-    color: white;
-    background: #6BC8CB;
-    border: none;
-}
-
-/* footer */
 section#contactame {
-    height: 90vh;
+	height: 90vh;
+}
+.contac-frase{
+	color: white;
+    font-size: 2em;
 }
 footer{
 	background: #4B8085;
-    color: white;
-    padding: 1px;
+	color: white;
+	padding: 1px;
 }
-
+.contacto-logo{
+	color: white;
+}
 .ac-profe-color{
 	color:#6BC8CB !important;
 }
-
 .btn-draw {
-  position: relative;
-  display: inline-block;
-  color: #4B8085;
-  border-bottom: 2px solid #6BC8CB;
-  cursor: pointer;
-  margin: 2.3rem; 
-  overflow: hidden;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	display: inline-block;
+	border-bottom: 2px solid #6BC8CB;
+	color: #97D9DB;
+	cursor: pointer;
+	margin: 2.3rem; 
+	overflow: hidden;
+	position: relative;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 .btn-draw:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 2px;
-  background: #4B8085;
-  transform: translateY(100%);
-  transition: transform 0.2s ease-in-out;
-  transition-delay: 0.6s;
+	background: #4B8085;
+	content: '';
+	bottom: 0;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	transform: translateY(100%);
+	transition: transform 0.2s ease-in-out;
+	transition-delay: 0.6s;
+	width: 2px;
 }
  .btn-draw .btn-cv {
-  position: relative;
-  display: block;
-  padding: 1em;
-  color: inherit;
+	color: inherit;
+	display: block;
+	position: relative;
+	padding: 1em;
 } 
 .btn-draw .btn-cv:before, .btn-draw .btn-cv:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #4B8085;
-  transition: transform 0.2s ease-in-out;
+	background: #4B8085;
+	content: '';
+	left: 0;
+	position: absolute;
+	top: 0;
+	transition: transform 0.2s ease-in-out;
 }
 .btn-draw .btn-cv:before {
-  height: 2px;
-  width: 100%;
-  transform: translateX(100%);
-  transition-delay: 0.4s;
+	height: 2px;
+	transform: translateX(100%);
+	transition-delay: 0.4s;
+	width: 100%;
 }
 .btn-draw .btn-cv:after {
-  height: 100%;
-  width: 2px;
-  transform: translateY(-100%);
-  transition-delay: 0.2s;
+	height: 100%;
+	transform: translateY(-100%);
+	transition-delay: 0.2s;
+	width: 2px;
 }
 .btn-draw:hover:after, .btn-draw:hover  .btn-cv:before, .btn-draw:hover  .btn-cv:after {
-  transform: translate(0, 0);
+	transform: translate(0, 0);
 }
 .btn-draw:hover:after {
-  transition-delay: 0s;
+	transition-delay: 0s;
 }
 .btn-draw:hover .btn-cv:before {
-  transition-delay: 0.2s;
+	transition-delay: 0.2s;
 }
 .btn-draw:hover .btn-cv:after {
-  transition-delay: 0.4s;
+	transition-delay: 0.4s;
 }
 .btn-draw:hover {
-  color: white;
-  background-color: #4B8085;
-  transition-delay: 0.6s;
+	background-color: #4B8085;
+	color: white;
+	transition-delay: 0.6s;
+}
+.icon-contacto {
+	color: white;
+	cursor: pointer;
+}
+.icon-contacto:hover {
+	color: #6BC8CB;
 }

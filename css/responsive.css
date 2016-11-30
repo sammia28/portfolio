@@ -1,11 +1,35 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.slider{
-		height: 89vh !important;	
+		height: 65vh !important;	
 	}
-	.slides{
-		height: 80vh !important;
+	.titulo-n{
+		font-size: 2em;
 	}
-
-
+	.titulo{
+		font-size: 1em;
+	}
+	.profile{
+		font-size: 1em;
+	}
+	#habilidades{
+	    height: 150vh;
+	}
+	.h-logo {
+	    margin: 1rem;
+	    width: 8rem;
+	}
+	.card.col.l5 {
+	    margin: 1rem 0;
+	}
+	.contactame-parallax{
+	    height: 100vh;
+    	margin-top: 80rem;
+	}
+	.contac-frase{
+	    font-size: 1.3em;
+	}
+	section#contactame {
+	    height: 115vh;
+	}
 }
