@@ -3,63 +3,45 @@ body{
 }
 nav {
 	background:#4B8085;
-}
-.h-sec{
-	height: 140vh;
-}
-h3 {
-	background: white;
-	color: black;
-	font-weight: 900;
-	opacity: 0.8;
-	padding: 1rem;
-}
-.slider .slides {
-	height: 55vh !important;
-}
-.grey-text.text-lighten-3 {
-	background: #4B8085;
-	color: white !important;
-	opacity: 0.9;
-	padding: 1rem;
+	height: 10vh;
 }
 .sobre-mi {
-	height: 100vh;
+	height: 90vh;
 	background-color: gainsboro;
+}
+.top-profile{
+	margin-top: 2rem;
+}
+.contenedor{
+	width:900px;
+	margin:0px auto;
+}
+#text-animation{
+	color:transparent;
+	font-size:30px;
+}
+.ta-letra{
+	transition: color 0.3s;
+	font-size: 2em;
+	font-family: 'Julius Sans One', sans-serif;
+}
+h3 {
+	color: #4B8085;
+	font-weight: 900;
+	padding: 1rem;
 }
 .top-section{
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
-.ball {
-	border-radius: 100%;
-	background: #4B8085;
-	height: 10px;
-	left: -20px;
-	margin-left: -5px;
-	position: absolute;
-	top: 0;
-	transition-property: left, top;
-	transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
-	width: 10px;
-}
-.titulo-n {
-	display: inline-block;
-	font-size: 4rem;
-	font-family: 'Julius Sans One', sans-serif;
-	margin: 0;
-	outline: none;
-	position: relative;
-	text-align: center;
-}
 .titulo{
 	font-family: 'Julius Sans One', sans-serif;
 }
 .profile{
-	margin-bottom: 8rem;
 	font-family: 'Catamaran', sans-serif;
+	font-size: 1.5em;
 	line-height: 1.5;
-	padding-top: 4rem;
+	margin-top: 4rem;
 }
 .icon-contac{
 	color: white;
@@ -83,21 +65,42 @@ h3 {
 	opacity: 0.7;
 	border-style: double;
 }
-.card.col.l5 {
-	margin: 3.5rem;
+.h-habilidades{
+	height: 150vh;	
 }
-img.activator:hover {
-	opacity: 0.8;
-}
-.contactame-parallax{
-	background-image: url(../img/fondo-contactame.jpg);
+.parallax-frase {
+	background-image: url(../img/demoyomequiero.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 20vh;
 }
-section#proyectos {
-    margin-bottom: 51rem;
+.frase{
+	margin-top:5rem;
+	padding-top: 3rem;
+}
+.card.col.l5 {
+	margin:3.5rem;
+}
+img.activator:hover {
+	opacity: 0.8;
+}
+.slide-titulo {
+	background: white;
+	padding: 1.5rem;
+	color:black;
+}
+h5.slide-sub.light.grey-text.text-lighten-3.hide-on-small-only {
+	background: white;
+	color: black !important;
+	padding: 2rem;
+}
+.slider {
+	position: relative;
+	width: 100%;
+	margin-bottom: 6rem;
+	margin-top: 5rem;
 }
 section#contactame {
 	height: 90vh;
@@ -110,6 +113,13 @@ footer{
 	background: #4B8085;
 	color: white;
 	padding: 1px;
+}
+.contactame-parallax{
+	background-image: url(../img/fondo-contactame.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .contacto-logo{
 	color: white;
