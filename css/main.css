@@ -5,25 +5,38 @@ nav {
 	background:#4B8085;
 	height: 10vh;
 }
+.side-nav{
+	background: #4B8085;
+	height: auto;
+	padding-bottom: 0;
+	width: 100%;
+}
+.li-nav{
+	border-top: 1px solid black;
+}
+.option-nav{
+	color: white !important;
+	font-size: 1.5em !important;
+}
 .sobre-mi {
-	height: 90vh;
 	background-color: gainsboro;
+	height: 90vh;
 }
 .top-profile{
 	margin-top: 2rem;
 }
 .contenedor{
-	width:900px;
 	margin:0px auto;
+	width:900px;
 }
 #text-animation{
 	color:transparent;
 	font-size:30px;
 }
 .ta-letra{
-	transition: color 0.3s;
 	font-size: 2em;
 	font-family: 'Julius Sans One', sans-serif;
+	transition: color 0.3s;
 }
 h3 {
 	color: #4B8085;
@@ -53,22 +66,22 @@ h3 {
 	color:#97D9DB;
 }
 .photo-profile{
-	width: 103%;
     margin-top: 11rem;
     height: 48vh;
+	width: 103%;
 }
 .h-logo {
-	width: 10rem;
-	margin: 2rem;
 	cursor: pointer;
+	margin: 2rem;
+	width: 10rem;
 }
 .h-logo:hover {
 	background: #DADADA;
-	border-radius: 50%;
-	padding: 1rem;
 	border: 6px #97D9DB;
-	opacity: 0.7;
+	border-radius: 50%;
 	border-style: double;
+	opacity: 0.7;
+	padding: 1rem;
 }
 .h-habilidades{
 	height: 150vh;	
@@ -81,8 +94,8 @@ img.activator:hover {
 }
 .slide-titulo {
 	background: white;
-	padding: 1.5rem;
 	color:black;
+	padding: 1.5rem;
 }
 h5.slide-sub.light.grey-text.text-lighten-3.hide-on-small-only {
 	background: white;
@@ -90,10 +103,10 @@ h5.slide-sub.light.grey-text.text-lighten-3.hide-on-small-only {
 	padding: 2rem;
 }
 .slider {
-	position: relative;
-	width: 100%;
 	margin-bottom: 6rem;
 	margin-top: 5rem;
+	position: relative;
+	width: 100%;
 }
 section#contactame {
 	height: 90vh;

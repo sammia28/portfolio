@@ -1,35 +1,69 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.slider{
-		height: 65vh !important;	
+	.profile {
+		margin-top: 2rem;
 	}
-	.titulo-n{
-		font-size: 2em;
-	}
-	.titulo{
-		font-size: 1em;
-	}
-	.profile{
-		font-size: 1em;
-	}
-	#habilidades{
-	    height: 150vh;
+	.photo-profile {
+		margin-top: 11rem;
+		margin-bottom: 11rem;
+		width: 100%;
 	}
 	.h-logo {
-	    margin: 1rem;
-	    width: 8rem;
+		cursor: pointer;
+		margin: 0;
+		width: 7rem;
+	}
+	.h-habilidades {
+		height: 200vh;
+	}
+	.top-section {
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+	}
+	.slider {
+		margin-top: 1rem;
 	}
 	.card.col.l5 {
-	    margin: 1rem 0;
+		margin: 0;
+		margin-bottom: 2rem;
 	}
-	.contactame-parallax{
-	    height: 100vh;
-    	margin-top: 80rem;
+	.bottom-contacto{
+		margin-bottom: 0;
 	}
-	.contac-frase{
-	    font-size: 1.3em;
+	.btn-draw {
+		margin: 0; 
 	}
-	section#contactame {
-	    height: 115vh;
+	.contac-frase {
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.contacto-logo {
+		margin-bottom: 0rem;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.profile {
+		margin-top: 0;
+		font-size: 1em;
+	}
+	.ta-letra {
+		font-size: 1.3em;
+	}
+	.photo-profile {
+		margin-top: 11rem;
+		margin-bottom: 11rem;
+		width: 100%;
+	}
+	.photo-profile {
+		margin-top: 17rem;
+	}
+	.h-habilidades {
+		height: auto !important;
+	}
+	.card.col.l5 {
+		margin: 0 !important;
+	}
+	.contac-frase {
+		font-size: 1.5em;
 	}
 }
