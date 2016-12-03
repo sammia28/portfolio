@@ -52,6 +52,11 @@ h3 {
 .icon-profile:hover{
 	color:#97D9DB;
 }
+.photo-profile{
+	width: 103%;
+    margin-top: 11rem;
+    height: 48vh;
+}
 .h-logo {
 	width: 10rem;
 	margin: 2rem;
@@ -67,18 +72,6 @@ h3 {
 }
 .h-habilidades{
 	height: 150vh;	
-}
-.parallax-frase {
-	background-image: url(../img/demoyomequiero.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 20vh;
-}
-.frase{
-	margin-top:5rem;
-	padding-top: 3rem;
 }
 .card.col.l5 {
 	margin:3.5rem;
