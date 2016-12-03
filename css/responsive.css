@@ -4,8 +4,7 @@
 		margin-top: 2rem;
 	}
 	.photo-profile {
-		margin-top: 11rem;
-		margin-bottom: 11rem;
+		margin:0 !important;
 		width: 100%;
 	}
 	.h-logo {
@@ -50,15 +49,14 @@
 		font-size: 1.3em;
 	}
 	.photo-profile {
-		margin-top: 11rem;
-		margin-bottom: 11rem;
-		width: 100%;
-	}
-	.photo-profile {
-		margin-top: 17rem;
+		margin-left: 16rem;
+		margin-bottom: 5rem;
 	}
 	.h-habilidades {
 		height: auto !important;
+	}
+	.habilidades-titulo{
+		margin-top: 5rem;
 	}
 	.card.col.l5 {
 		margin: 0 !important;

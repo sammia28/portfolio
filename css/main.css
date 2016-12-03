@@ -2,17 +2,20 @@ body{
 	font-family: Catamaran;
 }
 nav {
-	background:#4B8085;
+	background: #ce302f;
 	height: 10vh;
 }
 .side-nav{
-	background: #4B8085;
+	background: #ce302f;
 	height: auto;
 	padding-bottom: 0;
 	width: 100%;
 }
 .li-nav{
-	border-top: 1px solid black;
+	border-top: 1px solid white;
+}
+.li-nav:hover {
+	opacity: 0.3;
 }
 .option-nav{
 	color: white !important;
@@ -20,10 +23,13 @@ nav {
 }
 .sobre-mi {
 	background-color: gainsboro;
-	height: 90vh;
+	padding-bottom: 4rem;
 }
 .top-profile{
 	margin-top: 2rem;
+}
+#sobre-mi .row {
+	margin-bottom: 0 !important;
 }
 .contenedor{
 	margin:0px auto;
@@ -66,9 +72,8 @@ h3 {
 	color:#97D9DB;
 }
 .photo-profile{
-    margin-top: 11rem;
-    height: 48vh;
-	width: 103%;
+	margin-top: 5rem;
+	margin-left: 8rem;
 }
 .h-logo {
 	cursor: pointer;
@@ -83,11 +88,18 @@ h3 {
 	opacity: 0.7;
 	padding: 1rem;
 }
-.h-habilidades{
-	height: 150vh;	
+.sec-actitud-prof{
+	background-image: url(../img/fondo-actitud-prof.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
 }
 .card.col.l5 {
 	margin:3.5rem;
+}
+.card .card-reveal {
+	background-color: rgba(255, 255, 255, 0.82);
 }
 img.activator:hover {
 	opacity: 0.8;
@@ -138,7 +150,7 @@ footer{
 	border-bottom: 2px solid #6BC8CB;
 	color: #97D9DB;
 	cursor: pointer;
-	margin: 2.3rem; 
+	margin: 4.3rem;
 	overflow: hidden;
 	position: relative;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
