@@ -12,6 +12,9 @@
 		margin: 0;
 		width: 7rem;
 	}
+	.slider .slides li .caption {
+	    width: 85%;
+	}
 	.h-habilidades {
 		height: 200vh;
 	}
@@ -39,6 +42,11 @@
 	.contacto-logo {
 		margin-bottom: 0rem;
 	}
+	.footer-text{
+	    font-size: 11px;
+	    padding: 0.5rem;
+	}
+
 }
 @media only screen and (max-width: 992px) {
 	.profile {
