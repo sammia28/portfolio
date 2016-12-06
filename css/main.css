@@ -5,6 +5,9 @@ nav {
 	background: #ce302f;
 	height: 10vh;
 }
+nav .button-collapse{
+	margin-left: 11px;
+}
 .side-nav{
 	background: #ce302f;
 	height: auto;
@@ -126,9 +129,6 @@ h5.slide-sub.text-lighten-3.hide-on-small-only {
 	margin-top: 5rem;
 	position: relative;
 	width: 100%;
-}
-section#contactame {
-	height: 90vh;
 }
 .contac-frase{
 	color: white;
