@@ -1,78 +1,234 @@
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.profile {
-		margin-top: 2rem;
+@media only screen and (min-width : 320px) and (max-width : 1024px) {
+	header{
+		background-color: #fff;
+		z-index: 3 !important;
+		position: fixed;
+		height: auto;
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+		-moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+		box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
 	}
-	.photo-profile {
-		margin:0 !important;
-		width: 100%;
+	.menu_bar {
+		position: relative;
+	    display: block;
+		top:0;
+		height: 4rem;
+		width:100%;
+		padding: 20px;
 	}
-	.h-logo {
-		cursor: pointer;
-		margin: 0;
-		width: 7rem;
-	}
-	.slider .slides li .caption {
-	    width: 85%;
-	}
-	.h-habilidades {
-		height: 200vh;
-	}
-	.top-section {
-		margin-top: 0rem;
-		margin-bottom: 0rem;
-	}
-	.slider {
-		margin-top: 1rem;
-	}
-	.card.col.l5 {
-		margin: 0;
-		margin-bottom: 2rem;
-	}
-	.bottom-contacto{
-		margin-bottom: 0;
-	}
-	.btn-draw {
-		margin: 0; 
-	}
-	.contac-frase {
-		font-size: 1.5em;
-		text-align: center;
-	}
-	.contacto-logo {
-		margin-bottom: 0rem;
-	}
-	.footer-text{
-	    font-size: 11px;
-	    padding: 0.5rem;
-	}
-
-}
-@media only screen and (max-width: 992px) {
-	.profile {
-		margin-top: 0;
-		font-size: 1em;
-	}
-	.ta-letra {
+	.menu_bar .icon-menu {
+		display: block;
+		color: #545973;
+		float: right;
 		font-size: 1.3em;
 	}
-	.photo-profile {
-		margin-left: 16rem;
-		margin-bottom: 5rem;
-	}
-	.h-habilidades {
-		height: auto !important;
-	}
-	.habilidades-titulo{
-		margin-top: 5rem;
-	}
-	.card.col.l5 {
-		margin: 0 !important;
-	}
-	.contac-frase {
-		font-size: 1.5em;
-	}
-	.icon-cont{
+	header nav {
+		background-color: #a9a97a;
+		text-align: left;
+		position: absolute;
 		width: 100%;
+		margin: 0rem 0;
+	}
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+		cursor: pointer;
+	}
+	header nav ul li a {
+		display: block;
+		cursor: pointer;
 	}
 }
+
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 768px){
+/* ------------BANNER 1 ------------*/
+	
+	.img-fondo-port {
+	    margin-top: 4rem;
+	    height: 250px;
+	}
+	.img-profile {
+	    width: 50%;
+	    left: 25%;
+    	z-index: 1;
+	}
+	.text-banner1 {
+	    margin: 0;
+	    width: 100%;
+	    height: 62vh;
+	}
+	.text-banner1 h1 {
+	    font-size: 3em;
+	}
+	.text-banner1 h2 {
+	    display: none;
+	}
+
+
+
+/* ---------BANNER 2-------- */
+
+	.banner2 {
+    	margin-top: 16rem;
+    	height: 627px;
+    }
+	.text-banner2 h3 {
+	    font-size: 1.2em;
+	    padding: 2rem;
+	    text-align: justify;
+	    margin-top: 0;
+	}
+	.img-borde {
+	    width: 100%;
+	    margin-top: 2rem;
+	    height: 3rem;
+	}
+
+/* ----------------BANNER 3 ---------------*/
+
+	.text-banner3 {
+	    top: 11%;
+	}
+	.logo-html, .logo-css, .logo-js, .logo-jquery, .logo-materialize, .logo-github {
+	    margin: 1rem;
+	    width: 30%;
+	}
+
+/* -----------------BANNER 4 --------------*/
+	.banner4 h3 {
+	    margin: 3rem;
+    	position: initial;
+	}
+	.img-yomequiero, .img-tutraba, .img-lyft, .img-republica, .img-tini, .img-trello {
+	    position: initial;
+	    width: 100%;
+	    height: auto;
+	    cursor: pointer;
+	    margin: 1rem 0;
+	}
+	.banner4 h4 {
+	    position: initial;
+	    margin: 2rem;
+	}
+	.slider {
+	    position: initial;
+	    width: 100%;
+	    height: 140px;
+	    background-repeat: no-repeat;
+	}
+
+/* -------------------CONTACTO----------------- */
+
+	.contactame-parallax {
+	    margin-top: 36rem;
+	}
+	.contactame-parallax h3 {
+	    top: 10%;
+	    left: 15%;
+	    right: 15%;
+	}
+	.btn-download {
+	    top: 19%;
+	    left: 15%;
+	    right: 16%;
+	    text-align: center;
+	}
+	.contactame-parallax h5 {
+	    top: 35%;
+	    font-size: 1.2em;
+	}
+	.cont-icon {
+	    top: 65%;
+	    left: 0%;
+	    right: 0%;
+	    text-align: center;
+	}
+	.icon-mail, .icon-phone {
+	    color: #fff;
+	    font-size: 1em;
+	    font-family: 'Raleway', sans-serif;
+	    margin: 1.7rem;
+	    line-height: 2;
+	}
+	span.icon-phone {
+	    margin: 0 5rem;
+	}
+	.cont-icon2 {
+	    left: 10%;
+	    top: 80%;
+	    right: 10%;
+	    text-align: center;
+	}
+	.footer {
+	    font-size: 1em;
+	    height: 4rem;
+	    padding: 1.5rem;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+/* -------------BANNER 1 -----------*/
+	.img-fondo-port {
+	    height: auto;
+	}
+	.img-profile {
+	    width: 39%;
+	    left: 30%;
+	    top: 15%;
+	}
+	.text-banner1 {
+	    height: 18vh;
+	}
+	.text-banner1 h1 {
+	    margin-top: 5rem;
+	    font-size: 3.5em;
+	}
+
+/*------------------BANNER 2----------------*/
+
+	.banner2 {
+	    margin-top: -1rem;
+	    height: 37vh;
+	}
+
+/* -------------------BANNER 3--------------*/
+
+	.logo-html, .logo-css, .logo-js, .logo-jquery, .logo-materialize, .logo-github {
+	    margin: 2rem;
+	    width: 17%;
+	}
+
+/* -----------------BANNER 4 ----------------*/
+	.banner4 {
+	    position: relative;
+	    height: auto;	
+	}
+	.slider {
+	    height: 32vh;
+	}
+
+/* -----------------BANNER 5-------------- */
+
+	.contactame-parallax {
+	    margin-top: 1rem;
+	}
+	.contactame-parallax h3 {
+	    left: 42%;
+	    top: 10%;
+	    right: 42%;
+	}
+	.btn-download {
+	    left: 32%;
+	    top: 28%;
+	    width: 35%;
+	}
+	.contactame-parallax h5 {
+	    top: 46%;
+	}
+
+}
+

@@ -1,229 +1,353 @@
-body{
-	font-family: Catamaran;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
-nav {
-	background: #ce302f;
-	height: 10vh;
+
+/*----------------MENU---------------------*/
+
+.menu_bar {
+    display:none;
 }
-nav .button-collapse{
-	margin-left: 11px;
+header {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    z-index: 1 !important;
 }
-.side-nav{
-	background: #ce302f;
-	height: auto;
-	padding-bottom: 0;
-	width: 100%;
+header nav {
+    margin: 0rem 2rem;
+    text-align: right;
 }
-.li-nav{
-	border-top: 1px solid white;
+header nav ul {
+    list-style:none;
 }
-.li-nav:hover {
-	opacity: 0.3;
+header nav ul li {
+    display:inline-block;
+    position: relative;
 }
-.option-nav{
-	color: white !important;
-	font-size: 1.5em !important;
+header nav ul li:hover {
+    background:#a9a97a;
 }
-.sobre-mi {
-	background-color: gainsboro;
-	padding-bottom: 4rem;
+
+header nav ul li:hover a{
+    background: #a9a97a;
 }
-.top-profile{
-	margin-top: 2rem;
+
+header nav ul li a {
+    color:#fff;
+    display:block;
+    padding: 20px;
+    text-decoration:none;
 }
-#sobre-mi .row {
-	margin-bottom: 0 !important;
+.navJS {
+    margin: 0rem 2rem;
+    text-align: right;
 }
-.contenedor{
-	margin:0px auto;
-	width:900px;
+.navJS ul {
+    list-style:none;
 }
-#text-animation{
-	color:transparent;
-	font-size:30px;
+.navJS ul li {
+    background: #fff;
+    display:inline-block;
+    position: relative;
 }
-.ta-letra{
-	font-size: 2em;
-	font-family: 'Julius Sans One', sans-serif;
-	transition: color 0.3s;
+.navJS ul li:hover a{
+    background:#FFF;
 }
-h3 {
-	color: #4B8085;
-	font-weight: 900;
-	padding: 1rem;
+.navJS ul li:hover a{
+    color:#2c77ad;
+    border-bottom: 5px solid rgb(169, 137, 98);
+    transition: all 0.3s linear;
 }
-.top-section{
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+
+.navJS ul li a {
+    color:gray;
+    display:block;
+    padding: 20px;
+    text-decoration:none;
 }
-.titulo{
-	font-family: 'Julius Sans One', sans-serif;
+
+/* --------------BANNER 1------------- */
+.img-fondo-port{
+    position: relative;
+    width: 100%;
 }
-.profile{
-	font-family: 'Catamaran', sans-serif;
-	font-size: 1.5em;
-	line-height: 1.5;
-	margin-top: 4rem;
+.img-profile{
+    border: 10px double #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 24%;
+    left: 40%;
+    width: 15%;
+    height: 28vh;
+    z-index: 3;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+
 }
-.icon-contac{
-	color: white;
+.text-banner1{
+    background-color: rgba(62, 28, 28, 0.72);
+    margin: 0 4rem;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    width: 90%;
+    height: 50vh;
 }
-.icon-profile{
-	color:#2A2B2A;
+.text-banner1 h1, h2{
+    color: #feffe6;
 }
-.icon-profile:hover{
-	color:#CE302F;
+.text-banner1 h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 4em;
+    margin-top: 7rem;
 }
-.photo-profile{
-	margin-top: 5rem;
-	margin-left: 8rem;
+.text-banner1 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    margin-top: 1rem;
 }
-.photo-profile:hover {
-    opacity: 0.8;
-    border: 3px double #CE302F;
+
+/* ------------------------BANNER 2----------------------*/
+.banner2{
+    position: relative;
+    width: 100%;
+    height: 662px;
+    margin-top: -8rem;
 }
-.habilidades-titulo{
-	margin-top: 3rem;
+.text-banner2{
+    background: rgb(169, 137, 98);
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
-.h-logo {
-	cursor: pointer;
-	margin: 2rem;
-	width: 10rem;
+.text-banner2 h3{
+    color: #f5f3e3;
+    font-size: 1.7em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    line-height: 1.4;
+    padding: 7rem;
+    margin-top: 6rem;
 }
-.h-logo:hover {
-	background: #DADADA;
-	border: 6px #97D9DB;
-	border-radius: 50%;
-	border-style: double;
-	opacity: 0.7;
-	padding: 1rem;
-}
-.sec-actitud-prof{
-	background-image: url(../img/fondo-actitud-prof.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: white;
-}
-.card.col.l5 {
-	margin:3.5rem;
-}
-.card .card-reveal {
-	background-color: rgba(255, 255, 255, 0.82);
-}
-img.activator:hover {
-	opacity: 0.8;
-}
-.slide-titulo {
-	background: white;
-	color:black;
-	padding: 1.5rem;
-}
-h5.slide-sub.text-lighten-3.hide-on-small-only {
-	background: white;
-	color: black !important;
-	padding: 2rem;
-}
-.slider {
-	margin-bottom: 6rem;
-	margin-top: 5rem;
-	position: relative;
-	width: 100%;
-}
-.img-dmtraba {
-    height: 17.4rem;
-}
-.contac-frase{
-	color: white;
+.icon-contacto{
+    color: #fff;
     font-size: 2em;
+    text-decoration: none;
 }
-footer{
-	background: #CE302F;
-	color: white;
-	padding: 1px;
+.icon-contacto:hover{
+    color: black;
 }
+.img-borde{
+    width: 100%;
+}
+/* ----------------BANNER 3 ---------------*/
+
+.banner3{
+    position: relative;
+    width: 100%;
+    height: 662px;
+    background: #aee0e5;
+}
+.text-banner3{
+    position: absolute;
+    top: 16%;
+    text-align: center;
+}
+.text-banner3 h3, .text-banner3 h4{
+    font-size: 1.7em;
+    font-family: 'Raleway', sans-serif;   
+}
+.logo-html, .logo-css, .logo-js, .logo-jquery, .logo-materialize, .logo-github{
+    margin: 1rem 5rem;
+}
+
+/*-----------BANNER 4--------------*/
+
+.banner4{
+    position: relative;
+    height: 190vh;
+    width: 100%;
+}
+.banner4 h3{
+    position: absolute;
+    top: 8%;
+    left: 45%;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Raleway', sans-serif;
+}
+.banner4 h4{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 38%;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+.img-yomequiero, .img-tutraba, .img-lyft, .img-republica, .img-tini, .img-trello {
+    position: absolute;
+    width: 33.3%;
+    height: 38vh;
+    cursor: pointer;
+}
+.img-yomequiero{
+    top: 15%;
+}
+.img-tutraba{
+    top: 15%;
+    left: 33.3%;
+}
+.img-lyft{
+    top: 15%;
+    left: 66.6%;
+}
+.img-trello{
+    top: 35%;
+}
+.img-republica{
+    top: 35%;
+    left: 33.3%;
+}
+.img-tini{
+    top: 35%;
+    left: 66.6%;
+}
+
+.zoom{
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; 
+    -webkit-transition: 1.5s ease;
+    -o-transition: 1.5s ease; 
+}
+.zoom:hover{
+    transform : scale(1.5);
+    -moz-transform : scale(1.5); 
+    -webkit-transform : scale(1.5);
+    -o-transform : scale(1.5); 
+    -ms-transform : scale(1.5);
+    z-index: 3 !important;
+    top:30%;
+    left: 33%;
+}
+
+
+/* -----------SLIDER ----------*/
+
+.slider{
+    width: 700px;
+    height: 300px;
+    border: 3px solid rgba(93, 76, 5, 0.88);
+    background-size: 100%;
+    position: absolute;
+    top: 66%;
+    left: 26%;
+    animation: slider 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slider{
+    0%, 30% {
+        background-image: url(../img/s-codespace.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1;
+    }
+    35%, 65% {
+        background-image: url(../img/s-horacodigo.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.1;
+    }
+    70%, 100%{
+        background-image: url(../img/s-yomequiero.png);
+        opacity: 1;
+    }
+}
+
+/* ---------------SECTION CONTACTO------- */
+
 .contactame-parallax{
-	background-image: url(../img/fondo-contactame.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-image: url(../img/fondo-contactame.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 662px;
 }
-.contacto-logo{
-	color: white;
+.contactame-parallax h3, h5{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    text-align: center;
 }
-.ac-profe-color{
-	color:#6BC8CB !important;
+.contactame-parallax h3{
+    font-size: 2em;
+    top: 20%;
+    left: 45%;
 }
-.btn-draw {
-	display: inline-block;
-	border-bottom: 2px solid #CE302F;
-	color: #CE302F;
-	cursor: pointer;
-	margin: 4.3rem;
-	overflow: hidden;
-	position: relative;
-	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+.contactame-parallax h5{
+    font-size: 1.7em;
+    top: 52%;
+    left: 7%;
+    right: 7%;
 }
-.btn-draw:after {
-	background: #CE302F;
-	content: '';
-	bottom: 0;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	transform: translateY(100%);
-	transition: transform 0.2s ease-in-out;
-	transition-delay: 0.6s;
-	width: 2px;
+.btn-download{
+    background: rgb(169, 169, 122);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 41.5%;
+    text-decoration: none;
+    padding: 1rem 3rem;
 }
- .btn-draw .btn-cv {
-	color: white;
-	display: block;
-	position: relative;
-	padding: 1em;
-} 
-.btn-draw .btn-cv:before, .btn-draw .btn-cv:after {
-	background: #CE302F;
-	content: '';
-	left: 0;
-	position: absolute;
-	top: 0;
-	transition: transform 0.2s ease-in-out;
+.btn-download:hover{
+    background: rgb(169, 169, 169);
+    color: black;
 }
-.btn-draw .btn-cv:before {
-	height: 2px;
-	transform: translateX(100%);
-	transition-delay: 0.4s;
-	width: 100%;
+.footer{
+    background: #a9a97a;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    height: 3rem;
 }
-.btn-draw .btn-cv:after {
-	height: 100%;
-	transform: translateY(-100%);
-	transition-delay: 0.2s;
-	width: 2px;
+.cont-icon{
+    position: absolute;
+    top: 72%;
+    left: 25%;
 }
-.btn-draw:hover:after, .btn-draw:hover  .btn-cv:before, .btn-draw:hover  .btn-cv:after {
-	transform: translate(0, 0);
+.icon-mail, .icon-phone{
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    margin: 2rem;
 }
-.btn-draw:hover:after {
-	transition-delay: 0s;
+.cont-icon2{
+    position: absolute;
+    top: 85%;
+    left: 40%;
 }
-.btn-draw:hover .btn-cv:before {
-	transition-delay: 0.2s;
+.icon-footer{
+    color: #fff;
+    font-size: 2.4em;
+    text-decoration: none;
 }
-.btn-draw:hover .btn-cv:after {
-	transition-delay: 0.4s;
+.icon-footer:hover{
+    color: #a9a97a;
 }
-.btn-draw:hover {
-	background-color: #CE302F;
-	color: white;
-	transition-delay: 0.6s;
-}
-.icon-contacto {
-	color: white;
-	cursor: pointer;
-}
-.icon-contacto:hover {
-	color: #CE302F;
-}
+
+
+
